@@ -1,11 +1,11 @@
-btclog
+bchlog
 ======
 
-[![Build Status](http://img.shields.io/travis/btcsuite/btclog.svg)](https://travis-ci.org/btcsuite/btclog)
+[![Build Status](http://img.shields.io/travis/bchsuite/bchlog.svg)](https://travis-ci.org/bchsuite/bchlog)
 [![ISC License](http://img.shields.io/badge/license-ISC-blue.svg)](http://copyfree.org)
 [![GoDoc](https://img.shields.io/badge/godoc-reference-blue.svg)](http://godoc.org/github.com/bchsuite/bchlog)
 
-Package btclog defines a logger interface and provides a default implementation
+Package bchlog defines a logger interface and provides a default implementation
 of a subsystem-aware leveled logger implementing the same interface.
 
 ## Installation
@@ -17,7 +17,7 @@ $ go get github.com/bchsuite/bchlog
 ## GPG Verification Key
 
 All official release tags are signed by Conformal so users can ensure the code
-has not been tampered with and is coming from the btcsuite developers.  To
+has not been tampered with and is coming from the bchsuite developers.  To
 verify the signature perform the following:
 
 - Download the public key from the Conformal website at
@@ -36,5 +36,5 @@ verify the signature perform the following:
 
 ## License
 
-Package btclog is licensed under the [copyfree](http://copyfree.org) ISC
+Package bchlog is licensed under the [copyfree](http://copyfree.org) ISC
 License.
